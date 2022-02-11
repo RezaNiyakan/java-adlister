@@ -8,6 +8,11 @@
             <li><a href="/login">Login</a></li>
             <li><a href="/logout">Logout</a></li>
         </ul>
+
+        <form action="/search" method="post" style="float: left; margin-top: 1em;">
+            <input type="text" name="query" placeholder="Ad Search" />
+            <button>Go!</button>
+        </form>
     </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
